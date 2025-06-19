@@ -5,8 +5,8 @@ Readmeには、フロントエンドとバックエンドの手順のみ記載�
 その他の手順は、ドキュメント一覧から参照ください。
 
 ## ドキュメント一覧
-- [docker設定方法](docs/docker設定方法.md)
 - [MySQL設定方法](docs/MySQL設定方法.md)
+- [docker設定方法](docs/docker設定方法.md)
 
 ## 構成
 React + Express + MySQL を使用します。
