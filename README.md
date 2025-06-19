@@ -1,20 +1,18 @@
 # Readme
-セットアップは、フロントエンド→バックエンド→MySQL→dockerの順を推奨します。
-Readmeには、フロントエンドとバックエンドの手順のみ記載しています。
+本リポジトリでは、原価・利益管理システムのコードを管理します。  
+Readmeには、フロントエンドとバックエンドの手順のみ記載しています。  
+セットアップは、フロントエンド→バックエンド→MySQL→dockerの順を推奨します。  
 その他の手順は、ドキュメント一覧から参照ください。
 
 ## ドキュメント一覧
 - [docker設定方法](docs/docker設定方法.md)
 - [MySQL設定方法](docs/MySQL設定方法.md)
 
-## 概要
-原価・利益管理システムのコードを管理します。
-React + Express + MySQL を使用した開発環境。
-
 ## 構成
-- frontend: React
-- backend: Express (Node.js)
-- db: MySQL
+React + Express + MySQL を使用します。
+- frontend: React  
+- backend: Express (Node.js)  
+- db: MySQL  
 
 ## フロントエンドセットアップ手順
 ### ディレクトリ構成
@@ -32,6 +30,10 @@ npx create-react-app frontend
 ### 2. 動作確認
 ```bash
 npm start
+```
+ブラウザで以下URLを開く。
+```bash
+http://localhost:3000
 ```
 初期画面(Reactロゴが回転している)が、表示されれば成功。
 ## バックエンドセットアップ手順
@@ -85,8 +87,9 @@ app.listen(port, () => {
 ### 5. 動作確認
 ```bash
 npm start
-
+```
 ブラウザで以下URLを開く。
+```bash
 http://localhost:5000/health
 ```
 「{"status":"ok","message":"Backend is running!"}」が、表示されれば成功。
